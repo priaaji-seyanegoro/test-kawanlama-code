@@ -10,3 +10,7 @@ const perkalianSederhana = (j, k) => {
 };
 
 console.log(perkalianSederhana(5, 4));
+
+/* Keselahannya terletak pada return dari function tsbt,
+yang direturn bukan variable total melainkan hasil yang dimana variable
+hasil valuenya tidak berubah */
